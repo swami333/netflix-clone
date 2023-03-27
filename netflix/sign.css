@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(rgb(0, 0, 0,0.5),rgb(0, 0, 0,0.5),rgb(0, 0, 0,0.5),rgb(0, 0, 0,0.5)),url('./background.jpg');
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec{
+    margin:50px auto;
+    background-color:rgba(0,0,0,.75);
+    width:450px;
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width:314px;
+    height:364px;
+}
+form input[type='text'],input[type='password']{
+    color:white;
+}
+
+::placeholder{
+    font-weight:bold;
+}
+.singup a{
+    color:#8c8c8c;
+    text-decoration:none;
+}
+.singup a:hover{
+    text-decoration:underline;
+}
+h1{
+    font-size:32px;
+    color:white;
+}
+.term{
+    display:flex;
+    justify-content:space-between;
+    color:#8c8c8c;
+    font-size: 13px;
+}
+.help a{
+    color:#8c8c8c;
+    text-decoration: none;
+}
+.help a:hover{
+    text-decoration: underline;
+}
+.singup{
+    margin-top:50px;
+    color:#8c8c8c;
+}
+.singup p{
+    font-size:13px;
+
+}
+.check{
+    accent-color:#8c8c8c;
+    
+}
+
+#email,#pass{
+    background:#333333;
+ 
+    padding:16px 20px;
+    width:314px;
+    height:50px;
+    border:none;
+    outline:none;
+}
+button{
+    margin-top:20px;
+    width:314px;
+    height:48px;
+    padding:16px;
+    color:white;
+    background-color:#E50914;
+    border:none;
+    cursor:pointer;
+    font-weight:bold;
+}
+.l{
+    color:#0071EB;
+}
+.l:hover{
+    text-decoration:underline;
+}
+footer{
+    margin-top:80px;
+    background-color: rgba(0,0,0,.75);
+    color: #8c8c8c;
+    padding-bottom:40px;
+    position: relative;
+}
+footer{
+    background-color: black;
+    color: #737373;
+}
+footer section{
+    margin-top:20px;
+   
+    display:flex;
+    justify-content: center; 
+    
+}
+
+footer section div{
+    padding-right:100px;
+    line-height:40px;
+}
+footer section div ul li{
+    list-style-type:none;
+}
+footer p{
+    margin-left:210px;
+
+    padding-top:80px;
+   
+}
+
+footer .input,.sl{
+
+ margin-left:210px;
+
+   
+}
+footer .input select{
+    background-color:black;
+    border:1px solid #737373;
+    color:#737373;
+    padding:12px 26px 12px 40px;
+  
+}
+
+.g span img{
+    margin-top:9px;
+    position:absolute;
+   
+   left:18%;
+   top:72.5%;
+   background-color:#737373;
+   border-radius:100px;
+}
+
+
+
+
+
+

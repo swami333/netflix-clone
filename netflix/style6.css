@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width:1200px;
+    margin:auto;
+}
+nav ul{
+    display:flex;
+    justify-content:space-between;
+}
+ul li{
+    list-style-type:none;
+}
+.l2{
+    align-self:center;
+}
+.para p{
+    width:400px;
+    font-size:13px;
+    color:#8c8c8c;;
+}
+#s{
+    color:black;
+    font-size:19px;
+    font-weight:bold;
+}
+.se{
+    display:flex;
+    justify-content: flex-end;
+    animation-name:ch;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+}
+@keyframes ch{
+    from{
+        transform:translatex(0%);
+        opacity:0;
+    }
+    to{
+      transform:translateX(-28%);
+      opacity:1;
+    }
+  }
+.c{
+    margin-top:40px;
+}
+.ls{
+    line-height:30px;
+}
+.ls img{
+    border:1px solid #ccc;
+    padding:5px;
+ 
+}
+.ls span{
+    font-size:13px;
+}
+h3{
+    
+    color:#333333;
+}
+
+.d2 input{
+   margin-top:10px;
+   width:418.667px;
+   height:48.667px;
+   padding:15px 10px;
+   outline:none;
+}
+
+footer{
+    height:250px;
+   
+    margin-top:125px;
+    background-color: #f3f3f3;
+    color: #737373;
+    position: relative;
+}
+footer section{
+    margin-top:20px;
+ 
+    display:flex;
+    justify-content: center; 
+    justify-content:space-evenly;
+    
+}
+
+footer section div{
+    padding-right:100px;
+    line-height:40px;
+ 
+    
+}
+footer section div ul li{
+    list-style-type:none;
+   
+}
+footer section{
+    margin-right:180px;
+}
+footer p{
+    margin-left:48px;
+
+    padding-top:40px;
+   
+}
+
+footer .input{
+
+ margin-left:48px;
+
+}
+footer .input select{
+    /* background-color:black; */
+    border:1px solid #737373;
+    color:#737373;
+    padding:12px 26px 12px 40px;
+    outline:none;
+  
+}
+.g img{
+    background-color:wheat;
+    border-radius:100px;
+    position: absolute;
+    left:5%;
+    top:69%;
+}
+
+
+.plan{
+    width:420px;
+    margin:10px 0px;
+    background-color:#eee;
+    padding:10px;
+    display: flex;
+    justify-content:space-between;
+}
+.plan a{
+   
+   color:#0071EB;
+   font-weight:bold;
+  text-decoration:none;
+   
+}
+
+.link{
+    align-self:center;
+}
+.l2 a{
+    text-decoration:none;
+}
+.l2 a:hover{
+    text-decoration:underline;
+}
+button{
+    width:426px;
+    height:65px;
+    font-size:24px;
+    color:#fff;
+    font-weight:bold;
+    background-color:#E50914;
+    border:none;
+}
+
+.cb{
+    display: flex;
+    color:#8c8c8c;
+}
+.cb span{
+    align-self: center;
+    margin-top:10px;
+}
+.cb input[type='checkbox']{
+    width:40px;
+    height:20px;
+    margin-left:-10px;
+    
+}

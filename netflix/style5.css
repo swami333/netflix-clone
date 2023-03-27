@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    width:1200px;
+    margin:auto;
+}
+nav ul{
+    display:flex;
+    justify-content:space-between;
+}
+ul li{
+    list-style-type:none;
+}
+.l2{
+    align-self:center;
+    
+}
+.l2 a{
+    text-decoration:none;
+}
+.l2 a:hover{
+    text-decoration:underline;
+}
+#s{
+    color:black;
+    font-size:19px;
+    font-weight:bold;
+}
+
+.container{
+    display:flex;
+    justify-content:flex-end;
+    animation-name:ch;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes ch{
+    from{
+        transform:translatex(0%);
+        opacity:0;
+    }
+    to{
+      transform:translateX(-30%);
+      opacity:1;
+    }
+  }
+
+p{
+    font-size:18px;
+    color:#333333;
+}
+.p{
+    font-weight:bold;
+    color:#333333;
+}
+.upi{
+    margin-top:40px;
+    line-height:20px;
+    text-align: center;
+}
+.pay,.credit{
+    display:block;
+    border:2.5px solid #ccc;
+    width:496px;
+    height:60px;
+    padding:15px 0;
+    text-align:left;
+    text-decoration:none;
+    color:black;
+ 
+}
+
+
+.pay,.credit{
+
+    display:flex;
+    justify-content:space-evenly;
+    border-radius:5px;
+}
+.pay{
+    margin-top:5px;
+}
+.pay span,.credit span{
+    align-self:center;
+}
+.pay .img img{
+    border:1px solid #ccc;
+    padding:5px;
+    margin-top:5px;
+}
+.credit .img{
+    border:1px solid #ccc;
+    padding:5px;
+}
+
+.s{
+    border:2px solid #E50914;
+    padding:8px;
+    border-radius:100px;
+}
+
+.step{
+    font-size:13px;
+    color:#333333;
+}
+.r{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.r i{
+    color:rgb(255, 181, 63);
+}
+
+.step span{
+    font-weight:bold;
+}
+
+footer{
+    height:250px;
+   
+    margin-top:125px;
+    background-color: #f3f3f3;
+    color: #737373;
+    position: relative;
+}
+footer section{
+    margin-top:20px;
+ 
+    display:flex;
+    justify-content: center; 
+    justify-content:space-evenly;
+    
+}
+
+footer section div{
+    padding-right:100px;
+    line-height:40px;
+ 
+    
+}
+footer section div ul li{
+    list-style-type:none;
+   
+}
+footer section{
+    margin-right:180px;
+}
+footer p{
+    margin-left:55px;
+
+    padding-top:40px;
+   
+}
+
+footer .input{
+
+ margin-left:55px;
+   
+}
+footer .input select{
+    /* background-color:black; */
+    border:1px solid #737373;
+    color:#737373;
+    padding:12px 26px 12px 40px;
+    
+}
+.g img{
+    background-color:wheat;
+    border-radius:100px;
+    position: absolute;
+    left:5%;
+    top:69%;
+}
+

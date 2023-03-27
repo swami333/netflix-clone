@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    width:1200px;
+    margin:auto;
+}
+nav ul{
+    display:flex;
+    justify-content:space-between;
+}
+ul li{
+    list-style-type:none;
+}
+.l2{
+    align-self:center;
+}
+#s{
+    color:black;
+    font-size:19px;
+    font-weight:bold;
+}
+h1{
+    color: #333333;
+}
+.center-div{
+    border:1px solid rebeccapurple;
+    height:100vh;
+    font-size:18px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+ 
+  
+}
+
+
+
+.center-div div{  
+    animation-name:chagepos;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+}
+@keyframes chagepos{
+  from{
+      transform:translatex(0%);
+      opacity:0;
+  }
+  to{
+    transform:translateX(-120%);
+    opacity:1;
+  }
+}
+
+.st{
+   
+    margin-left:100px;
+    font-size:13px;
+}
+.circle{
+    border:2px solid red;
+    border-radius:100px;
+    padding:8px;
+    margin-left:120px;
+}
+.i{
+    margin-left:74px;
+}
+.span{
+    display:flex;
+   
+}
+.span img{
+    margin-right:10px;
+}
+button{
+    margin-top:40px;
+   
+    background-color:#E50914;
+    display:inline-block;
+    
+    font-size:24px;
+    width:335px;
+    height:24px;
+    padding:20px 50px 48px 50px;
+    border:none;
+}
+button a{
+    color:white;
+    text-decoration:none;
+}
+footer{
+    height:250px;
+   
+    margin-top:125px;
+    background-color: #f3f3f3;
+    color: #737373;
+    position: relative;
+}
+footer section{
+    margin-top:20px;
+ 
+    display:flex;
+    justify-content: center; 
+    justify-content:space-evenly;
+    
+}
+
+footer section div{
+    padding-right:100px;
+    line-height:40px;
+ 
+    
+}
+footer section div ul li{
+    list-style-type:none;
+   
+}
+footer section{
+    margin-right:180px;
+}
+footer p{
+    margin-left:55px;
+
+    padding-top:40px;
+   
+}
+
+footer .input{
+
+ margin-left:55px;
+   
+}
+footer .input select{
+    /* background-color:black; */
+    border:1px solid #737373;
+    color:#737373;
+    padding:12px 26px 12px 40px;
+  
+}
+.g img{
+    background-color:wheat;
+    border-radius:100px;
+    position: absolute;
+    left:5%;
+    top:69%;
+}
